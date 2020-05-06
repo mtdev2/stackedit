@@ -51,7 +51,7 @@
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0",
     "mermaid": "^8.0.0-rc.8",
-    "mousetrap": "^1.6.1",
+    "mousetrap": "^1.6.5",
     "normalize-scss": "^7.0.1",
     "prismjs": "^1.6.0",
     "request": "^2.85.0",
