@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - mermaid > graphlib > lodash:
+        patched: '2020-05-19T12:25:07.710Z'
+    - mermaid > dagre > lodash:
+        patched: '2020-05-19T12:25:07.710Z'
+    - mermaid > dagre-d3 > lodash:
+        patched: '2020-05-19T12:25:07.710Z'
+    - mermaid > dagre > graphlib > lodash:
+        patched: '2020-05-19T12:25:07.710Z'
+    - mermaid > dagre-d3 > graphlib > lodash:
+        patched: '2020-05-19T12:25:07.710Z'
+    - mermaid > dagre-d3 > dagre > lodash:
+        patched: '2020-05-19T12:25:07.710Z'
+    - mermaid > dagre-d3 > dagre > graphlib > lodash:
+        patched: '2020-05-19T12:25:07.710Z'
