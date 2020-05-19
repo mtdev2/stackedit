@@ -22,14 +22,12 @@
     "patch": "npm version patch -m \"Tag v%s\"",
     "minor": "npm version minor -m \"Tag v%s\"",
     "major": "npm version major -m \"Tag v%s\"",
-    "chart": "mkdir -p dist && rm -rf dist/stackedit && cp -r chart dist/stackedit && sed -i.bak -e s/STACKEDIT_VERSION/$npm_package_version/g dist/stackedit/*.yaml && rm dist/stackedit/*.yaml.bak",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "chart": "mkdir -p dist && rm -rf dist/stackedit && cp -r chart dist/stackedit && sed -i.bak -e s/STACKEDIT_VERSION/$npm_package_version/g dist/stackedit/*.yaml && rm dist/stackedit/*.yaml.bak"
   },
   "dependencies": {
     "@vue/test-utils": "^1.0.0-beta.16",
     "abcjs": "^5.2.0",
-    "aws-sdk": "^2.662.0",
+    "aws-sdk": "^2.317.0",
     "babel-runtime": "^6.26.0",
     "bezier-easing": "^1.1.0",
     "body-parser": "^1.18.2",
@@ -39,11 +37,15 @@
     "diff-match-patch": "^1.0.0",
 
     "compression": "^1.7.0",
+
+    "diff-match-patch": "^1.0.0",
+
     "diff-match-patch": "^1.0.4",
 depfu/update/npm/compression-1.7.4
+snyk-fix-f5eddaf58c374c78341fd3cd4af1b3fd
     "file-saver": "^1.3.8",
     "google-id-token-verifier": "^0.2.3",
-    "handlebars": "^4.0.10",
+    "handlebars": "^4.6.0",
     "indexeddbshim": "^3.6.2",
     "js-yaml": "^3.11.0",
     "katex": "^v0.10.2",
@@ -51,19 +53,14 @@ depfu/update/npm/compression-1.7.4
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-deflist": "^2.0.2",
     "markdown-it-emoji": "^1.3.0",
-    "markdown-it-footnote": "^3.0.2",
+    "markdown-it-footnote": "^3.0.1",
     "markdown-it-imsize": "^2.0.1",
     "markdown-it-mark": "^2.0.0",
     "markdown-it-pandoc-renderer": "1.1.3",
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0",
-
-    "mermaid": "^8.0.0-rc.8",
-    "mousetrap": "^1.6.5",
-
     "mermaid": "^8.5.0",
     "mousetrap": "^1.6.1",
-depfu/update/npm/mousetrap-1.6.5
     "normalize-scss": "^7.0.1",
     "prismjs": "^1.6.0",
     "request": "^2.85.0",
@@ -71,8 +68,7 @@ depfu/update/npm/mousetrap-1.6.5
     "tmp": "^0.0.33",
     "turndown": "^4.0.2",
     "vue": "^2.6.11",
-    "vuex": "^3.0.1",
-    "snyk": "^1.321.0"
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",
@@ -96,7 +92,7 @@ depfu/update/npm/mousetrap-1.6.5
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-import-resolver-webpack": "^0.9.0",
     "eslint-loader": "^2.0.0",
-    "eslint-plugin-html": "^4.0.6",
+    "eslint-plugin-html": "^4.0.3",
     "eslint-plugin-import": "^2.11.0",
     "eventsource-polyfill": "^0.9.6",
     "express": "^4.16.3",
@@ -151,6 +147,5 @@ depfu/update/npm/mousetrap-1.6.5
     "> 1%",
     "last 2 versions",
     "not ie <= 10"
-  ],
-  "snyk": true
+  ]
 }
